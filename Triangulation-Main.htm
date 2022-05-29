@@ -88,10 +88,9 @@
           drawLine(points[triangles[x25].P3].x + 400, points[triangles[x25].P3].z + 400, points[triangles[x25].P1].x + 400, points[triangles[x25].P1].z + 400, 1, DrawingContext, "#000000");
 
           // Side view
-          drawLine(points[triangles[x25].P1].z, points[triangles[x25].P1].y + 400, points[triangles[x25].P2].z, points[triangles[x25].P2].y + 400, 1, DrawingContext, "#000000");
-          drawLine(points[triangles[x25].P2].z, points[triangles[x25].P2].y + 400, points[triangles[x25].P3].z, points[triangles[x25].P3].y + 400, 1, DrawingContext, "#000000");
-          drawLine(points[triangles[x25].P3].z, points[triangles[x25].P3].y + 400, points[triangles[x25].P1].z, points[triangles[x25].P1].y + 400, 1, DrawingContext, "#000000");
-        }
+          drawLine(points[triangles[x25].P1].y, points[triangles[x25].P1].z + 400, points[triangles[x25].P2].y, points[triangles[x25].P2].z + 400, 1, DrawingContext, "#000000");
+          drawLine(points[triangles[x25].P2].y, points[triangles[x25].P2].z + 400, points[triangles[x25].P3].y, points[triangles[x25].P3].z + 400, 1, DrawingContext, "#000000");
+          drawLine(points[triangles[x25].P3].y, points[triangles[x25].P3].z + 400, points[triangles[x25].P1].y, points[triangles[x25].P1].z + 400, 1, DrawingContext, "#000000");        }
       }
 
       // Main program, starting by defining the number of points and the recursion depth
