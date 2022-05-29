@@ -19,6 +19,10 @@ My implementation is based on formulae above and the result is pretty much the s
 
 ![image](https://user-images.githubusercontent.com/101653815/170863180-ed0835a0-5a05-4699-8415-e8f077cba356.png)
 
+And this method allows to produce a nice and smooth snowman (and other 3D objects of course):
+
+![image](https://user-images.githubusercontent.com/101653815/170864449-6ef6c1c8-ea66-4133-908b-c14ae5c57d44.png)
+
 
 Reference
 ---------
